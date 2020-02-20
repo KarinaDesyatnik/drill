@@ -82,7 +82,10 @@
 
 .info-pricing__item p {
   font-size: 11px;
-  font-weight: 400;
+  font-weight: 600;
+  font-family: "Merriweather", sans-serif;
+  line-height: 18px;
+  color: #000;
 }
 
 .info-pricing__item img {
@@ -91,7 +94,7 @@
 
 .info-pricing__title {
   font-size: 13px;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .info-pricing__items .col-sm-4:first-child {
@@ -415,6 +418,10 @@
   margin-top: 0;
   max-width: 380px;
   font-size: 12px;
+  color: #000;
+  font-family: "Merriweather", sans-serif;
+  font-weight: 600;
+  line-height: 18px;
 }
 
 .consultants .container {
@@ -455,6 +462,11 @@
 .question-pricing .sub-title {
   margin-bottom: 20px;
   text-align: center;
+  color: #000;
+  font-family: "Merriweather", sans-serif;
+  font-weight: 600;
+  line-height: 18px;
+  font-size: 12px;
 }
 
 .question-pricing h2 {
@@ -485,7 +497,7 @@
 }
 
 .question-pricing__item {
-  border-bottom: 1px solid #707070;
+  border-bottom: 1px solid #e2e2e2;
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
@@ -515,6 +527,14 @@
   font-size: 13px;
   padding-right: 10px;
   max-width: 700px;
+  font-family: "Merriweather", sans-serif;
+  font-weight: 600;
+  color: #000;
+}
+
+.question-pricing__items {
+  max-width: 786px;
+  margin: 0 auto;
 }
 
 /*==========  Desktop First  ==========*/
@@ -714,3 +734,33 @@
   }
 }
 
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /**/
+}
+
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /**/
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /**/
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/
+}
