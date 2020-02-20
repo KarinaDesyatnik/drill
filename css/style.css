@@ -232,6 +232,8 @@
   margin-bottom: 17px;
   font-weight: 500;
   min-height: 21px;
+  font-weight: bold;
+  font-family: "Merriweather", sans-serif;
 }
 
 .price-item__title {
@@ -294,6 +296,10 @@
 
 .price-item__button--grey {
   background: #F1F1F1;
+}
+
+.price-item__button--grey:hover {
+  background: rgba(241, 241, 241, 0.7);
 }
 
 .price-item--yellow {
